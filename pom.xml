@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.example.aop</groupId>
-	<artifactId>prj-aop-v4-Logging-and-Authentication-Strategy-slf4j</artifactId>
+	<artifactId>prj-aop-v5-ExceptionHandler-strategy</artifactId>
 	<version>1.0.0</version>
 	<packaging>jar</packaging>
 
-	<name>prj-aop-v4-Logging-and-Authentication-Strategy-slf4j</name>
+	<name>prj-aop-v5-ExceptionHandler-strategy</name>
 	<description>Rest API - How to use AOP to :
 		1- Log entries and exit to and from method
 		2- Authenticated user credential
@@ -88,6 +88,33 @@ LOGS : How to use SLF4J to :
 			</plugin>
 		</plugins>
 	</build>
+
+	<repositories>
+		<repository>
+			<id>myMavenRepoJamesHomeWorkRead</id>
+			<url>${myMavenRepoJamesHomeWorkReadUrl}</url>
+		</repository>
+	</repositories>
+
+
+	<!-- Instruction:
+	         deployment to a repository is configured in the pom.xml
+	         for the respective project in the distributionManagement section
+	 -->
+	<distributionManagement>
+		<repository>
+			<id>myMavenRepoJamesHomeWorkWrite</id>
+			<url>${myMavenRepoJamesHomeWorkWriteUrl}</url>
+		</repository>
+		<snapshotRepository>
+			<id>myMavenRepoJamesHomeWorkWrite</id>
+			<url>${myMavenRepoJamesHomeWorkWriteUrl}</url>
+		</snapshotRepository>
+	</distributionManagement>
+	<!-- Instruction:
+             The credentials used for the deployment are found in the <server>
+              section of your setting.xml
+     -->
 
 
 </project>

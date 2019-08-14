@@ -1,4 +1,9 @@
-00:01:38.908 [http-nio-8181-exec-5] INFO  c.example.aop.aspect.LoggingAdvice -  - method invoked: class com.example.aop.controller.PostController : create( ) - Input Arguments : ["murder",{"id":1,"owner":{"id":1,"name":"nome","email":"email","username":"username","publications":null,"createdAt":null,"updatedAt":null},"content":"content"}] 
-00:02:18.895 [http-nio-8181-exec-5] INFO  c.example.aop.aspect.LoggingAdvice -  - method executed: class com.example.aop.controller.PostController : create( ) - Response : ["murder",{"id":1,"owner":{"id":1,"name":"nome","email":"email","username":"username","publications":null,"createdAt":null,"updatedAt":null},"content":"content"}] 
-00:12:42.151 [http-nio-8181-exec-2] INFO  c.example.aop.aspect.LoggingAdvice -  - method invoked: class com.example.aop.controller.UserController : get( ) - Input Arguments : ["josueF"] 
-00:20:15.246 [http-nio-8181-exec-2] ERROR c.e.a.e.GlobalExceptionHandler - Handling UserNotFoundException due to User 'josueF' not found 
+12:18:17.469 [main] INFO  c.example.aop.UserNotesApplication - Starting UserNotesApplication on JOSUEs-MacBook-Pro.local with PID 20956 (/Users/josuefako/IdeaProjects/github-repositories/prj-aop-v5-ExceptionHandler-strategy/target/classes started by josuefako in /Users/josuefako/IdeaProjects/github-repositories/prj-aop-v5-ExceptionHandler-strategy) 
+12:18:17.477 [main] DEBUG c.example.aop.UserNotesApplication - Running with Spring Boot v2.0.0.RELEASE, Spring v5.0.4.RELEASE 
+12:18:17.479 [main] INFO  c.example.aop.UserNotesApplication - No active profile set, falling back to default profiles: default 
+12:18:21.720 [main] INFO  c.example.aop.UserNotesApplication - Started UserNotesApplication in 24.688 seconds (JVM running for 25.327) 
+12:18:48.703 [http-nio-8181-exec-1] INFO  c.example.aop.aspect.LoggingAdvice -  - method invoked: class com.example.aop.controller.UserController : get( ) - Input Arguments : ["josueF"] 
+12:18:48.716 [http-nio-8181-exec-1] ERROR c.e.a.e.GlobalExceptionHandler - Handling UserNotFoundException due to User 'josueF' not found 
+12:19:02.739 [http-nio-8181-exec-3] DEBUG c.e.a.a.MyCustomConfigurationAspect -  +++++++++ get Inside BEFORE getUserAccess ------------  
+12:19:02.741 [http-nio-8181-exec-3] DEBUG c.e.a.a.MyCustomConfigurationAspect -  +++++++++ get Outside BEFORE getUserAccess ------------  
+12:19:02.750 [http-nio-8181-exec-3] INFO  c.e.aop.controller.NoteController -  *** createNote  
