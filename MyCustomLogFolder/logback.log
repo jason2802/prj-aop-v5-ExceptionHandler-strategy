@@ -7,3 +7,11 @@
 12:19:02.739 [http-nio-8181-exec-3] DEBUG c.e.a.a.MyCustomConfigurationAspect -  +++++++++ get Inside BEFORE getUserAccess ------------  
 12:19:02.741 [http-nio-8181-exec-3] DEBUG c.e.a.a.MyCustomConfigurationAspect -  +++++++++ get Outside BEFORE getUserAccess ------------  
 12:19:02.750 [http-nio-8181-exec-3] INFO  c.e.aop.controller.NoteController -  *** createNote  
+13:34:50.018 [main] INFO  c.e.aop.UserNotesApplicationTests - Starting UserNotesApplicationTests on JOSUEs-MacBook-Pro.local with PID 21718 (started by josuefako in /Users/josuefako/IdeaProjects/github-repositories/prj-aop-v5-ExceptionHandler-strategy) 
+13:34:50.021 [main] DEBUG c.e.aop.UserNotesApplicationTests - Running with Spring Boot v2.0.0.RELEASE, Spring v5.0.4.RELEASE 
+13:34:50.024 [main] INFO  c.e.aop.UserNotesApplicationTests - No active profile set, falling back to default profiles: default 
+13:34:53.397 [main] INFO  c.e.aop.UserNotesApplicationTests - Started UserNotesApplicationTests in 23.64 seconds (JVM running for 24.392) 
+13:35:48.159 [main] INFO  c.e.aop.UserNotesApplicationTests - Starting UserNotesApplicationTests on JOSUEs-MacBook-Pro.local with PID 21772 (started by josuefako in /Users/josuefako/IdeaProjects/github-repositories/prj-aop-v5-ExceptionHandler-strategy) 
+13:35:48.161 [main] DEBUG c.e.aop.UserNotesApplicationTests - Running with Spring Boot v2.0.0.RELEASE, Spring v5.0.4.RELEASE 
+13:35:48.164 [main] INFO  c.e.aop.UserNotesApplicationTests - No active profile set, falling back to default profiles: default 
+13:35:51.469 [main] INFO  c.e.aop.UserNotesApplicationTests - Started UserNotesApplicationTests in 23.55 seconds (JVM running for 24.249) 

@@ -1,0 +1,4 @@
+20721 [main] INFO  c.e.aop.UserNotesApplicationTests - Starting UserNotesApplicationTests on JOSUEs-MacBook-Pro.local with PID 21718 (started by josuefako in /Users/josuefako/IdeaProjects/github-repositories/prj-aop-v5-ExceptionHandler-strategy) 
+20724 [main] DEBUG c.e.aop.UserNotesApplicationTests - Running with Spring Boot v2.0.0.RELEASE, Spring v5.0.4.RELEASE 
+20727 [main] INFO  c.e.aop.UserNotesApplicationTests - No active profile set, falling back to default profiles: default 
+24100 [main] INFO  c.e.aop.UserNotesApplicationTests - Started UserNotesApplicationTests in 23.64 seconds (JVM running for 24.392) 
