@@ -1,6 +1,0 @@
-20803 [main] INFO  c.example.aop.UserNotesApplication - Starting UserNotesApplication on JOSUEs-MacBook-Pro.local with PID 20956 (/Users/josuefako/IdeaProjects/github-repositories/prj-aop-v5-ExceptionHandler-strategy/target/classes started by josuefako in /Users/josuefako/IdeaProjects/github-repositories/prj-aop-v5-ExceptionHandler-strategy) 
-20811 [main] DEBUG c.example.aop.UserNotesApplication - Running with Spring Boot v2.0.0.RELEASE, Spring v5.0.4.RELEASE 
-20813 [main] INFO  c.example.aop.UserNotesApplication - No active profile set, falling back to default profiles: default 
-25054 [main] INFO  c.example.aop.UserNotesApplication - Started UserNotesApplication in 24.688 seconds (JVM running for 25.327) 
-52037 [http-nio-8181-exec-1] INFO  c.example.aop.aspect.LoggingAdvice -  - method invoked: class com.example.aop.controller.UserController : get( ) - Input Arguments : ["josueF"] 
-52050 [http-nio-8181-exec-1] ERROR c.e.a.e.GlobalExceptionHandler - Handling UserNotFoundException due to User 'josueF' not found 
